@@ -7,18 +7,22 @@ Escriba un programa que lea las tres notas del alumno y escriba su nota final.*/
 using namespace std;
 
 int main(){
+	//Declaración de variables
 	float n1,n2,n3,t=0,e=0,n=0,total=0;
+	//Ingreso de datos 
 	cout<<"Ingrese la calificaion de trabajos"<<endl;
 	cin>>n1;
 	cout<<"Ingrese la calificacion del examen"<<endl;
 	cin>>n2;
 	cout<<"Ingrese la calificacion de la participacion"<<endl;
 	cin>>n3;
+	//Procesos 
 	t=n1*0.30;
 	e=n2*0.60;
 	n=n3*0.10;
 	total=t+e+n;
+	//Presentación 
 	cout<<"Su nota obtenida es: "<<total;
 	return 0;
 }
-//ESTE ES UNA MODIFICACION DE PRUEBA//
+//ESTE ES UNA MODIFICACIóN DE PRUEBA//
