@@ -15,4 +15,5 @@ if(x==y)
 		cout<<"El valor de y = "<<y<<" Es menor a x = "<<x<<endl;
 	}
 }
+	return 0;
 }
