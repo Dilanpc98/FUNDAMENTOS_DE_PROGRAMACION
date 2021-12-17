@@ -17,4 +17,5 @@ if(x>0){
 cout<<"El saldo de egresos es: "<<se<<endl;
 cout<<"El saldo de ingresos es: "<<si<<endl;
 cout<<"El saldo total es: "<<s<<endl;
+return (0);
 }
